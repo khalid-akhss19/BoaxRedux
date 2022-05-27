@@ -1,10 +1,11 @@
 import React from "react";
+import HeroPage from "../../components/heropage";
 
 const Home = () => {
   return (
-    <div>
-      <h2> this is Home section</h2>
-    </div>
+    <>
+      <HeroPage />
+    </>
   );
 };
 
